@@ -283,3 +283,32 @@ body {
   list-style: none;
   display: inline-block;
 }
+
+.list_box_portfolio {
+  width: 370px;
+  height: 404px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.box_name {
+  width: 322px;
+  height: 70px;
+}
+
+.box_title {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--accentColorLogo);
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.box_information {
+  width: 322px;
+  height: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03e;
+}
