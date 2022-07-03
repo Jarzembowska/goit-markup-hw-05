@@ -134,8 +134,11 @@ body {
 
 .lorem_paragraf {
   width: 270px;
-  height: 75px;
+  /* height: 75px; */
   text-align: justify;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--contactColorMain);
 }
 
@@ -144,18 +147,18 @@ body {
   display: inline-block;
 }
 
-.title_people {
-  width: 209px;
+.people_title {
+  /* width: 209px; */
   height: 42px;
-  font-style: normal;
+  /* font-style: normal; */
   font-weight: 700;
-  font-size: 35px;
+  font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
 }
 
-.box_people {
+.people_box {
   width: 270px;
   height: 368px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -214,9 +217,9 @@ body {
 .address {
   color: #ffffff;
   width: 246px;
-  height: 81px;
-  font-style: normal;
-  font-weight: 400;
+  height: 21px;
+  /* font-style: normal; 
+  font-weight: 400;*/
   font-size: 14px;
   line-height: 1.5;
   letter-spacing: 0.03em;
@@ -225,8 +228,8 @@ body {
 .mail {
   width: 231px;
   height: 21px;
-  font-style: normal;
-  font-weight: 400;
+  /* font-style: normal;
+  font-weight: 400; */
   font-size: 14px;
   line-height: 1.5;
   letter-spacing: 0.03em;
@@ -235,8 +238,8 @@ body {
 .phone {
   width: 231px;
   height: 21px;
-  font-style: normal;
-  font-weight: 400;
+  /* font-style: normal;
+  font-weight: 400; */
   font-size: 14px;
   line-height: 1.5;
   letter-spacing: 0.03em;
@@ -311,4 +314,9 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03e;
+}
+
+.contact_footer a:hover,
+.contact_footer a:focus {
+  color: var(--accentColor);
 }
