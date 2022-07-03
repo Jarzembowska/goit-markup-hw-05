@@ -87,7 +87,6 @@ body {
 
 .title {
   width: 696px;
-  height: 120px;
 }
 
 .button {
@@ -105,8 +104,6 @@ body {
 }
 
 .title_what_are_we_doing {
-  width: 352px;
-  height: 42px;
   font-weight: 700;
   font-size: 35px;
   line-height: 1.17;
@@ -148,9 +145,6 @@ body {
 }
 
 .people_title {
-  /* width: 209px; */
-  height: 42px;
-  /* font-style: normal; */
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -167,8 +161,6 @@ body {
 }
 
 .name {
-  width: 72px;
-  height: 19px;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -177,9 +169,6 @@ body {
 }
 
 .profession {
-  width: 147px;
-  height: 19px;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -187,8 +176,7 @@ body {
   color: var(--contactColorMain);
 }
 
-.people li {
-  list-style: none;
+.people figure {
   display: inline-block;
 }
 
@@ -205,53 +193,44 @@ body {
   text-decoration: none;
 }
 
-.contact_footer li {
+.footer_contact li {
   list-style: none;
 }
 
-.contact_footer a {
+.footer_contact {
+  font-style: normal;
+}
+
+.footer_contact a {
   text-decoration: none;
   color: var(--contactColorFooter);
 }
 
+.footer_contact a:hover,
+.footer_contact a:focus {
+  color: var(--accentColor);
+}
+
 .address {
   color: #ffffff;
-  width: 246px;
-  height: 21px;
-  /* font-style: normal; 
-  font-weight: 400;*/
   font-size: 14px;
   line-height: 1.5;
   letter-spacing: 0.03em;
 }
 
 .mail {
-  width: 231px;
-  height: 21px;
-  /* font-style: normal;
-  font-weight: 400; */
   font-size: 14px;
   line-height: 1.5;
   letter-spacing: 0.03em;
 }
 
 .phone {
-  width: 231px;
-  height: 21px;
-  /* font-style: normal;
-  font-weight: 400; */
   font-size: 14px;
   line-height: 1.5;
   letter-spacing: 0.03em;
 }
 
 /* portfolio */
-
-.main_portfolio {
-  width: 1170px;
-  height: 1360px;
-  background-color: #ffffff;
-}
 
 .button_portfolio {
   width: 121px;
@@ -282,21 +261,15 @@ body {
   color: #fff;
 }
 
-.list_portfolio li {
+.portfolio_list li {
   list-style: none;
-  display: inline-block;
 }
 
-.list_box_portfolio {
+.portfolio_list_box {
   width: 370px;
   height: 404px;
   background: #ffffff;
   border: 1px solid #eeeeee;
-}
-
-.box_name {
-  width: 322px;
-  height: 70px;
 }
 
 .box_title {
@@ -308,15 +281,8 @@ body {
 }
 
 .box_information {
-  width: 322px;
-  height: 30px;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03e;
-}
-
-.contact_footer a:hover,
-.contact_footer a:focus {
-  color: var(--accentColor);
+  color: var(--contactColorMain);
 }
