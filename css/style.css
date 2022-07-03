@@ -108,9 +108,10 @@ body {
   width: 352px;
   height: 42px;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 35px;
   line-height: 1.17;
   font-style: normal;
+  text-align: center;
   letter-spacing: 0.03em;
 }
 
@@ -141,6 +142,17 @@ body {
 .what_are_we_doing li {
   list-style: none;
   display: inline-block;
+}
+
+.title_people {
+  width: 209px;
+  height: 42px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .box_people {
@@ -176,6 +188,8 @@ body {
   list-style: none;
   display: inline-block;
 }
+
+/* footer */
 
 .footer {
   background-color: var(--backgroundColor);
@@ -226,4 +240,46 @@ body {
   font-size: 14px;
   line-height: 1.5;
   letter-spacing: 0.03em;
+}
+
+/* portfolio */
+
+.main_portfolio {
+  width: 1170px;
+  height: 1360px;
+  background-color: #ffffff;
+}
+
+.button_portfolio {
+  width: 121px;
+  height: 38px;
+  border: none;
+  background-color: #f5f4fa;
+  color: #212121;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.main_nav li {
+  list-style: none;
+  display: inline;
+}
+
+.main_nav_portfolio button:hover,
+.main_nav_portfolio button:focus {
+  background-color: var(--accentColor);
+  color: #fff;
+}
+
+.list_portfolio li {
+  list-style: none;
+  display: inline-block;
 }
