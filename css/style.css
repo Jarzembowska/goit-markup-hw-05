@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Raleway", sans-serif;
   color: var(--mainTextColor);
 }
 
@@ -53,15 +53,16 @@ body {
   color: var(--accentColor);
 }
 
-.navigation li {
-  list-style: none;
-  display: inline;
-}
-
+.navigation li,
 .contact li {
   list-style: none;
   display: inline;
 }
+
+/* .contact li {
+  list-style: none;
+  display: inline;
+} */
 
 .contact a {
   text-decoration: none;
@@ -112,12 +113,9 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* 
 .lorem ul {
   display: flex;
-
 }
- */
 
 .lorem li {
   list-style: none;
