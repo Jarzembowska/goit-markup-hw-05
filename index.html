@@ -1,82 +1,89 @@
 <!DOCTYPE html>
 <html lang="pl">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Studio</title>
-
     <!-- najpierw normalizator -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studio</title>
     <!-- link do moich styli -->
     <link href="./css/style.css" rel="stylesheet" />
   </head>
   <body>
     <header class="menu">
-      <div>
+      <div class="logo">
         <h2>
           <a href="index.html"
             ><span class="logo1">Web</span><span class="logo2">Studio</span></a
           >
         </h2>
       </div>
-      <nav>
+      <nav class="nav_menu">
         <ul class="navigation">
-          <li><a href="index.html">Agencja</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="#">Kontakt</a></li>
+          <li class="item"><a href="index.html" class="link">Agencja</a></li>
+          <li class="item">
+            <a href="./portfolio.html" class="link">Portfolio</a>
+          </li>
+          <li class="item"><a href="#" class="link">Kontakt</a></li>
         </ul>
       </nav>
-      <div>
+      <div class="con_menu">
         <ul class="contact">
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+          <li class="item">
+            <a class="mail" href="mailto:info@example.com">info@example.com</a>
+          </li>
+          <li class="item">
+            <a class="telephone" href="tel:+48111111111">+48 111 111 111</a>
+          </li>
         </ul>
       </div>
     </header>
 
     <main>
-      <div class="header">
-        <h1 class="title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button class="button">Zamów usługe</button>
-      </div>
-      <section class="lorem">
-        <ul>
-          <li>
-            <h4 class="lorem_title">LOREM IPSUM</h4>
-            <p class="lorem_paragraf">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </p>
-          </li>
+      <section class="slider">
+        <div class="header">
+          <h1 class="title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+          <button class="button">Zamów usługe</button>
+        </div>
+        <div class="lorem">
+          <ul>
+            <li>
+              <h4 class="lorem_title">LOREM IPSUM</h4>
+              <p class="lorem_paragraf">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
 
-          <li>
-            <h4 class="lorem_title">LOREM IPSUM</h4>
-            <p class="lorem_paragraf">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </p>
-          </li>
+            <li>
+              <h4 class="lorem_title">LOREM IPSUM</h4>
+              <p class="lorem_paragraf">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
 
-          <li>
-            <h4 class="lorem_title">LOREM IPSUM</h4>
-            <p class="lorem_paragraf">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </p>
-          </li>
+            <li>
+              <h4 class="lorem_title">LOREM IPSUM</h4>
+              <p class="lorem_paragraf">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
 
-          <li>
-            <h4 class="lorem_title">LOREM IPSUM</h4>
-            <p class="lorem_paragraf">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </p>
-          </li>
-        </ul>
+            <li>
+              <h4 class="lorem_title">LOREM IPSUM</h4>
+              <p class="lorem_paragraf">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <section class="what_are_we_doing">

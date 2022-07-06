@@ -1,4 +1,9 @@
 /* Menu nawigacja  */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
 
 :root {
@@ -16,12 +21,26 @@ body {
 }
 
 .menu {
-  width: 100vw;
+  width: 1600px;
   height: 80px;
-}
+  display: flex;
 
+  /* width: 100vw;
+  height: 80px;
+  display: flex; */
+}
 .menu a {
   text-decoration: none;
+}
+
+.logo {
+  position: absolute;
+  border: none;
+  width: 145px;
+  height: 31px;
+  left: 214px;
+  top: 24px;
+  bottom: 25px;
 }
 
 .logo1 {
@@ -39,6 +58,18 @@ body {
   color: #fff;
 }
 
+.navigation {
+  position: absolute;
+  border: none;
+  width: 254px;
+  height: 16px;
+  left: 456px;
+  top: 36px;
+}
+.navigation > .item:not(:last-child) {
+  margin-right: 10px;
+}
+
 .navigation a {
   text-decoration: none;
   color: var(--mainTextColor);
@@ -47,23 +78,46 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-
+.navigation a,
+.contact a,
+.navigation li,
+.contact li {
+  list-style: none;
+  display: inline-block;
+}
 .navigation a:hover,
 .navigation a:focus {
   color: var(--accentColor);
 }
 
-.navigation li,
+/* .navigation li,
 .contact li {
   list-style: none;
   display: inline;
-}
-
-/* .contact li {
-  list-style: none;
-  display: inline;
+} */
+/* 
+.contact {
+  position: absolute;
+  border: none;
+  width: 135 px;
+  height: 16px;
+  left: 1076;
 } */
 
+.con_menu > .item:not(:last-child) {
+  margin-right: 10px;
+}
+.con_menu {
+  position: absolute;
+  border: none;
+  width: 135 px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
+}
+.con_menu {
+  display: inline-block;
+}
 .contact a {
   text-decoration: none;
   color: var(--contactColorMain);
@@ -78,6 +132,7 @@ body {
   color: var(--accentColor);
 }
 
+/* sekcja pierwsze slider */
 .header {
   width: 100vw;
   height: 600px;
