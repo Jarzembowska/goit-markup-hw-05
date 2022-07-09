@@ -1,42 +1,42 @@
 <!DOCTYPE html>
 <html lang="pl">
   <head>
-    <!-- najpierw normalizator -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio</title>
-    <!-- link do moich styli -->
-    <link href="./css/style.css" rel="stylesheet" />
+    <!-- link do pliku nomralize -->
+    <link rel="stylesheet" href="css/normalize-css.css" />
+    <!-- link do moich styli sass-->
+    <link rel="stylesheet" href="sassa/main.css" />
   </head>
   <body>
     <header class="menu">
-      <div class="logo">
-        <h2>
-          <a href="index.html"
-            ><span class="logo1">Web</span><span class="logo2">Studio</span></a
-          >
-        </h2>
-      </div>
-      <nav class="nav_menu">
-        <ul class="navigation">
-          <li class="item"><a href="index.html" class="link">Agencja</a></li>
-          <li class="item">
-            <a href="./portfolio.html" class="link">Portfolio</a>
-          </li>
-          <li class="item"><a href="#" class="link">Kontakt</a></li>
-        </ul>
-      </nav>
-      <div class="con_menu">
+      <div class="container">
+        <div class="menu_left">
+          <div class="logo">
+            <h2>
+              <a href="index.html"
+                ><span class="logo1">Web</span
+                ><span class="logo2">Studio</span></a
+              >
+            </h2>
+          </div>
+          <nav class="menu_nav">
+            <ul class="navigation">
+              <li><a href="index.html">Agencja</a></li>
+              <li>
+                <a href="./portfolio.html">Portfolio</a>
+              </li>
+              <li><a href="#">Kontakt</a></li>
+            </ul>
+          </nav>
+        </div>
         <ul class="contact">
-          <li class="item">
+          <li class="item mail">
             <a class="mail" href="mailto:info@example.com">info@example.com</a>
           </li>
-          <li class="item">
+          <li class="item telephone">
             <a class="telephone" href="tel:+48111111111">+48 111 111 111</a>
           </li>
         </ul>
