@@ -29,8 +29,17 @@ body {
   height: 80px;
   display: flex; */
 }
-.menu a {
-  text-decoration: none;
+.navigation a,
+.contact a,
+.logo a,
+.navigation li,
+.contact li {
+  list-style: none;
+  display: inline-block;
+}
+.navigation a:hover,
+.navigation a:focus {
+  color: var(--accentColor);
 }
 
 .logo {
@@ -78,17 +87,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.navigation a,
-.contact a,
-.navigation li,
-.contact li {
-  list-style: none;
-  display: inline-block;
-}
-.navigation a:hover,
-.navigation a:focus {
-  color: var(--accentColor);
-}
+
 
 /* .navigation li,
 .contact li {
