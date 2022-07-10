@@ -36,7 +36,7 @@
       flex-wrap: wrap;
       gap: 30px;
       li {
-        flex-basis: calc((100%-90px) / 3);
+        flex-basis: calc((100% - 90px) / 3);
       }
     }
     &_box {
