@@ -3,54 +3,74 @@
   width: 100%;
   background-color: $backgroundColor;
   color: $contactColor;
-  .footer {
+
+  .footer_menu {
     height: 252px;
-  }
-  .logo_footer {
-    .logo3 {
-      font-family: "Raleway";
-      color: #fff;
+    display: flex;
+    flex-direction: column;
+
+    .logo_footer {
+      padding-top: 60px;
+      padding-bottom: 20px;
+      .logo1 {
+        color: $accentColor;
+      }
+      .logo3 {
+        color: #fff;
+      }
+      h2 {
+        margin: 0;
+        font-family: "Raleway";
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+      }
+      a {
+        text-decoration: none;
+        color: $colorLink;
+      }
     }
   }
 }
 
-.footer a {
-  text-decoration: none;
-}
+// .footer a {
+//   text-decoration: none;
+// }
 
-.footer_contact li {
-  list-style: none;
-}
+// .footer_contact li {
+//   list-style: none;
+// }
 
-.footer_contact {
-  font-style: normal;
-}
+// .footer_contact {
+//   font-style: normal;
+// }
 
-.footer_contact a {
-  text-decoration: none;
-  color: $contactColorFooter;
-}
+// .footer_contact a {
+//   text-decoration: none;
+//   color: $contactColorFooter;
+// }
 
-.footer_contact a:hover,
-.footer_contact a:focus {
-  color: var(--accentColor);
-}
+// .footer_contact a:hover,
+// .footer_contact a:focus {
+//   color: var(--accentColor);
+// }
 
-.address {
-  color: #ffffff;
-  font-size: 14px;
-  line-height: 1.5;
-  letter-spacing: 0.03em;
-}
+// .address {
+//   color: #ffffff;
+//   font-size: 14px;
+//   line-height: 1.5;
+//   letter-spacing: 0.03em;
+// }
 
-.mail {
-  font-size: 14px;
-  line-height: 1.5;
-  letter-spacing: 0.03em;
-}
+// .mail {
+//   font-size: 14px;
+//   line-height: 1.5;
+//   letter-spacing: 0.03em;
+// }
 
-.phone {
-  font-size: 14px;
-  line-height: 1.5;
-  letter-spacing: 0.03em;
-}
+// .phone {
+//   font-size: 14px;
+//   line-height: 1.5;
+//   letter-spacing: 0.03em;
+// }
