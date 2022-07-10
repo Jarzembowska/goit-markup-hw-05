@@ -46,9 +46,9 @@
         display: block;
       }
       figcaption {
-        border-left: 1px solid #eeeeee;
-        border-bottom: 1px solid #eeeeee;
-        border-right: 1px solid #eeeeee;
+        border-left: 1px solid $colorPortfolioFigc;
+        border-bottom: 1px solid $colorPortfolioFigc;
+        border-right: 1px solid $colorPortfolioFigc;
         padding: 20px 24px;
       }
       .box_title {
