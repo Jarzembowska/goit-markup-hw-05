@@ -1,18 +1,28 @@
 @import "utils/vars";
+@import "components/header";
+@import "components/slider";
+@import "components/our_attributes";
+@import "components/what_are_we_doing";
+@import "components/team";
+@import "components/footer";
 
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: $mainTextColor;
-  background-color: $backgroundColor;
 }
 
-ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
+ul,
 p {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+.section {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+.container {
+  width: 1200px;
+  margin: auto;
 }

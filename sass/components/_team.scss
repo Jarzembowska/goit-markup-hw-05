@@ -1,0 +1,62 @@
+.team {
+  width: 100%;
+  background-color: $backgroundColorTeam;
+  .our_team {
+    height: 648px;
+    justify-content: center;
+    align-items: center;
+    h2 {
+      margin-top: 50px;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.17;
+      text-align: center;
+      letter-spacing: 0.03em;
+    }
+    .person {
+      display: flex;
+    }
+    figure {
+      margin-top: 50px;
+      width: 270px;
+      height: 368px;
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+      border-radius: 0px 0px 4px 4px;
+      display: inline-block;
+      img {
+        width: 270px;
+        // margin-bottom: 108px;
+      }
+      &:not(:last-child) {
+        margin-right: 15px;
+      }
+
+      &:not(:first-child) {
+        margin-left: 0;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+
+      figcaption {
+        .name {
+          margin-top: 30px;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 19px;
+          text-align: center;
+          letter-spacing: 0.03em;
+        }
+        .profession {
+          margin-top: 10px;
+          font-size: 16px;
+          line-height: 1.18;
+          text-align: center;
+          letter-spacing: 0.03em;
+          color: $contactColorMain;
+        }
+      }
+    }
+  }
+}

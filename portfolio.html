@@ -4,42 +4,57 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <!-- najpierw normalizator -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-    />
-    <!-- link do moich styli -->
-    <link href="./css/style.css" rel="stylesheet" />
+    <title>Studio</title>
+    <!-- link do pliku nomralize -->
+    <link rel="stylesheet" href="css/normalize-css.css" />
+    <!-- link do moich styli sass-->
+    <link rel="stylesheet" href="sass/main.css" />
   </head>
 
   <body>
-    <header class="menu">
-      <div class="logo">
-        <h2>
-          <a href="index.html"
-            ><span class="logo1">Web</span><span class="logo2">Studio</span></a
-          >
-        </h2>
-      </div>
-      <nav class="nav_menu">
-        <ul class="navigation">
-          <li class="item"><a href="index.html" class="link">Agencja</a></li>
-          <li class="item"><a href="./portfolio.html">Portfolio</a></li>
-          <li class="item"><a href="#">Kontakt</a></li>
-        </ul>
-      </nav>
-      <div class="con_menu">
-        <ul class="contact">
-          <li class="item">
-            <a class="mail" href="mailto:info@example.com">info@example.com</a>
-          </li>
-          <li class="item">
-            <a class="telephone" href="tel:+48111111111">+48 111 111 111</a>
-          </li>
-        </ul>
-      </div>
+    <header>
+      <section class="menu">
+        <div class="container">
+          <div class="navi">
+            <div class="menu_left">
+              <div class="logo">
+                <h2>
+                  <a class="logo_link" href="index.html"
+                    ><span class="logo1">Web</span>Studio</a
+                  >
+                </h2>
+              </div>
+              <nav class="menu_nav">
+                <ul class="nav">
+                  <li class="nav_item">
+                    <a class="nav_item_link" href="index.html">Agencja</a>
+                  </li>
+                  <li class="nav_item">
+                    <a class="nav_item_link" href="./portfolio.html"
+                      >Portfolio</a
+                    >
+                  </li>
+                  <li class="nav_item">
+                    <a class="nav_item_link" href="#">Kontakt</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <ul class="contact">
+              <li class="contact_item">
+                <a class="contact_item_link" href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="contact_item">
+                <a class="contact_item_link" href="tel:+48111111111"
+                  >+48 111 111 111</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </header>
 
     <main class="main_portfolio">

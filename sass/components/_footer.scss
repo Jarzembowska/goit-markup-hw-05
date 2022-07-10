@@ -1,0 +1,56 @@
+/* footer */
+.footer {
+  width: 100%;
+  background-color: $backgroundColor;
+  color: $contactColor;
+  .footer {
+    height: 252px;
+  }
+  .logo_footer {
+    .logo3 {
+      font-family: "Raleway";
+      color: #fff;
+    }
+  }
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer_contact li {
+  list-style: none;
+}
+
+.footer_contact {
+  font-style: normal;
+}
+
+.footer_contact a {
+  text-decoration: none;
+  color: $contactColorFooter;
+}
+
+.footer_contact a:hover,
+.footer_contact a:focus {
+  color: var(--accentColor);
+}
+
+.address {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+}
+
+.mail {
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+}
+
+.phone {
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+}

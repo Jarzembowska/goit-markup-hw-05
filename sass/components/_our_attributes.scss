@@ -1,0 +1,29 @@
+.attributes {
+  width: 100%;
+  margin-top: 94px;
+  ul {
+    display: flex;
+    li {
+      list-style: none;
+      display: inline;
+      &:not(:last-child) {
+        margin-right: 30px;
+      }
+      .attributes_title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+      }
+      .attributes_desc {
+        width: 270px;
+        text-align: justify;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: $contactColorMain;
+      }
+    }
+  }
+}
