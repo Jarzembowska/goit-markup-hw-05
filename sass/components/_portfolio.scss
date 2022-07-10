@@ -1,0 +1,69 @@
+.main_portfolio {
+  width: 100%;
+  .main_nav {
+    display: flex;
+    justify-content: center;
+    &_portfolio {
+      li {
+        display: inline;
+        &:not(:last-child) {
+          margin-right: 8px;
+        }
+        .button_portfolio {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 1.6;
+          text-align: center;
+          letter-spacing: 0.03em;
+          background: #f5f4fa;
+          border-radius: 4px;
+          border: 0px;
+          padding: 6px 15px;
+          cursor: pointer;
+          &:hover,
+          &:focus {
+            background: $accentColor;
+            color: $contactLogoColor;
+          }
+        }
+      }
+    }
+  }
+  .portfolio_list {
+    margin-top: 50px;
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      li {
+        flex-basis: calc((100%-90px) / 3);
+      }
+    }
+    &_box {
+      margin: 0;
+      padding: 0;
+      img {
+        display: block;
+      }
+      figcaption {
+        border-left: 1px solid #eeeeee;
+        border-bottom: 1px solid #eeeeee;
+        border-right: 1px solid #eeeeee;
+        padding: 20px 24px;
+      }
+      .box_title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        color: #212121;
+      }
+      .box_information {
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.03em;
+        color: #757575;
+      }
+    }
+  }
+}

@@ -1,76 +1,45 @@
-/* footer */
 .footer {
   width: 100%;
+  height: 252px;
   background-color: $backgroundColor;
-  color: $contactColor;
+  color: $contactColorFooter;
 
-  .footer_menu {
-    height: 252px;
-    display: flex;
-    flex-direction: column;
-
-    .logo_footer {
-      padding-top: 60px;
-      padding-bottom: 20px;
-      .logo1 {
-        color: $accentColor;
-      }
-      .logo3 {
-        color: #fff;
-      }
-      h2 {
-        margin: 0;
-        font-family: "Raleway";
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
-      }
+  .contact_box {
+    padding-top: 60px;
+    .logo {
+      margin: 0;
+      padding: 0;
+      font-family: "Raleway";
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 1.19;
+      letter-spacing: 0.03em;
       a {
         text-decoration: none;
-        color: $colorLink;
+        .txt {
+          color: $accentColor;
+        }
+        color: $contactLogoColor;
+      }
+    }
+    .footer_contact {
+      margin-top: 20px;
+      font-style: normal;
+      .item {
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        &:not(:last-child) {
+          margin-bottom: 9px;
+        }
+      }
+      .addres {
+        color: $contactLogoColor;
+      }
+      .link {
+        text-decoration: none;
+        color: $contactColorFooter;
       }
     }
   }
 }
-
-// .footer a {
-//   text-decoration: none;
-// }
-
-// .footer_contact li {
-//   list-style: none;
-// }
-
-// .footer_contact {
-//   font-style: normal;
-// }
-
-// .footer_contact a {
-//   text-decoration: none;
-//   color: $contactColorFooter;
-// }
-
-// .footer_contact a:hover,
-// .footer_contact a:focus {
-//   color: var(--accentColor);
-// }
-
-// .address {
-//   color: #ffffff;
-//   font-size: 14px;
-//   line-height: 1.5;
-//   letter-spacing: 0.03em;
-// }
-
-// .mail {
-//   font-size: 14px;
-//   line-height: 1.5;
-//   letter-spacing: 0.03em;
-// }
-
-// .phone {
-//   font-size: 14px;
-//   line-height: 1.5;
-//   letter-spacing: 0.03em;
-// }
