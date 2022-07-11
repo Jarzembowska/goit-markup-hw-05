@@ -20,7 +20,7 @@ body {
   color: var(--mainTextColor);
 }
 
-ul{
+ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -38,11 +38,10 @@ ul{
   justify-content: space-between;
 }
 
-
 .menu_left {
   display: flex;
   flex-direction: row;
-  margin-top: ;
+  /* margin-top: ; */
 }
 
 .contact {
@@ -121,8 +120,8 @@ ul{
   border: none;
   width: 135 px;
   min-height: 16px;
-  /* left: 1078px;
-  top: 32px; */
+  left: 1078px;
+  top: 32px;
   padding-right: 50px;
 }
 .menu_con {
