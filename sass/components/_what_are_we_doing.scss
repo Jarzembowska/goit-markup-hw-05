@@ -9,13 +9,15 @@
     letter-spacing: 0.03em;
   }
   ul {
+    display: flex;
+    gap: 30px;
     margin-top: 50px;
   }
   li {
     list-style: none;
-    display: inline;
-    &:not(:last-child) {
-      margin-right: 30px;
-    }
+    // display: inline;
+    // &:not(:last-child) {
+    //   margin-right: 30px;
+    // }
   }
 }

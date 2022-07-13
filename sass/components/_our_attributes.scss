@@ -3,12 +3,13 @@
   margin-top: 94px;
   ul {
     display: flex;
+    gap: 30px;
     li {
       list-style: none;
-      display: inline;
-      &:not(:last-child) {
-        margin-right: 30px;
-      }
+      // display: inline;
+      // &:not(:last-child) {
+      //   margin-right: 30px;
+      // }
       .attributes_title {
         font-weight: 700;
         font-size: 14px;
