@@ -1,4 +1,11 @@
 /* sekcja pierwsze slider */
+.slider_bacground {
+  background: $bacgroundSlider;
+  background-image: url(../../images/slider.jpg);
+  width: 100%;
+  height: max-content;
+  // background-size: cover;
+}
 .slider {
   width: 100%;
   background-color: $backgroundColor;
