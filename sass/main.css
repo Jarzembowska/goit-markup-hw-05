@@ -92,9 +92,8 @@
   background: rgba(47, 48, 58, 0.4);
   background-image: url(../../images/slider.jpg);
   width: 100%;
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .slider {

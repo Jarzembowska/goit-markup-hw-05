@@ -3,8 +3,8 @@
   background: $bacgroundSlider;
   background-image: url(../../images/slider.jpg);
   width: 100%;
-  height: max-content;
-  // background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .slider {
   width: 100%;
