@@ -1,14 +1,32 @@
-/* sekcja pierwsze slider */
-.slider_bacground {
-  background: $bacgroundSlider;
-  background-image: url(../../images/slider.jpg);
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-}
+/* sekcja pierwsza slider */
+// .slider_bacground {
+//   background: $bacgroundSlider;
+//   background-image: url(../../images/slider.jpg);
+//   width: 100%;
+//   background-repeat: no-repeat;
+//   background-position: center;
+// }
 .slider {
   width: 100%;
-  background-color: $backgroundColor;
+  height: 600px;
+  background: $backgroundColor url(../../images/slider.jpg) no-repeat center;
+  position: relative;
+  z-index: 3;
+  &:after {
+    content: "";
+    background: rgba(47, 48, 58, 0.4);
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  & > * {
+    position: relative;
+    z-index: 10;
+  }
+
   .header {
     height: 600px;
     display: flex;

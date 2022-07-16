@@ -8,7 +8,7 @@
     <!-- link do pliku nomralize -->
     <link rel="stylesheet" href="css/normalize-css.css" />
     <!-- link do moich styli sass-->
-    <link rel="stylesheet" href="sass/main.css" />
+    <link rel="stylesheet" href="css/main.min.css" />
   </head>
   <body>
     <header>
@@ -39,47 +39,44 @@
                 </ul>
               </nav>
             </div>
+                    
             <ul class="contact">
               <li class="contact_item">
-                <svg
-                  class="icon_header"
-                  width="43"
-                  height="32"
-                  fill="$backgroundColor"
+                <a
+                  class="contact_item_link envelope"
+                  href="mailto:info@example.com"
                 >
-                  <use
+                  <svg
                     width="16"
                     height="12"
-                    href="./images/svg/icons.svg#icon-envelope"
-                  ></use>
-                  />
-                </svg>
-                <a class="contact_item_link" href="mailto:info@example.com"
-                  >info@example.com</a
-                >
+                    viewBox="0 0 16 12"
+                  >
+                    <use xlink:href="./images/icons.svg#icon-envelope"></use>
+                  </svg>
+                  info@example.com
+                </a>
               </li>
               <li class="contact_item">
-                <svg
-                  class="icon_header"
-                  width="20"
-                  height="32"
-                  fill="$backgroundColor"
-                >
-                  <use href="./images/svg/icons.svg#icon-smartphone"></use>
-                  />
-                </svg>
-                <a class="contact_item_link" href="tel:+48111111111"
-                  >+48 111 111 111</a
-                >
+                <a class="contact_item_link" href="tel:+48111111111">
+                  <svg
+                    width="10"
+                    height="16"
+                    viewBox="0 0 10 16"
+                  >
+                    <use xlink:href="./images/icons.svg#icon-smartphone"></use>
+                  </svg>
+                  +48 111 111 111
+                </a>
               </li>
             </ul>
+            </div>
           </div>
         </div>
       </div>
     </header>
 
     <main>
-      <section class="slider slider_bacground">
+      <section class="slider">
         <div class="container">
           <div class="header">
             <h1 class="title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
@@ -92,25 +89,15 @@
           <div class="attributes_list">
             <ul>
               <li>
-                <figure class="attributes_list_box">
-                  <svg
-                    src="#icon-antenna-1"
-                    alt="antenna"
-                    width="270px"
-                    height="120px"
-                  ></svg>
-
-                  <figcaption>
-                    <p class="attributes_title">LOREM IPSUM</p>
-                    <p class="attributes_desc">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Nam vel arcu sem. Sed non sodales dui. Interdum et
-                      malesuada
-                    </p>
-                  </figcaption>
-                </figure>
-              </li>
-              <li>
+                <div class="attributes_list_icon">
+                 <svg
+                    width="70"
+                    height="70"
+                    viewBox="0 0 70 70"
+                  >
+                    <use xlink:href="./images/icons.svg#icon-antenna-1"></use>
+                  </svg> 
+                </div>
                 <h4 class="attributes_title">LOREM IPSUM</h4>
                 <p class="attributes_desc">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
@@ -118,6 +105,15 @@
                 </p>
               </li>
               <li>
+                <div class="attributes_list_icon">
+                 <svg
+                    width="70"
+                    height="70"
+                    viewBox="0 0 70 70"
+                  >
+                    <use xlink:href="./images/icons.svg#icon-clock-1"></use>
+                  </svg> 
+                </div>
                 <h4 class="attributes_title">LOREM IPSUM</h4>
                 <p class="attributes_desc">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
@@ -125,6 +121,31 @@
                 </p>
               </li>
               <li>
+                <div class="attributes_list_icon">
+                 <svg
+                    width="70"
+                    height="70"
+                    viewBox="0 0 70 70"
+                  >
+                    <use xlink:href="./images/icons.svg#icon-diagram-1"></use>
+                  </svg> 
+                </div>
+                <h4 class="attributes_title">LOREM IPSUM</h4>
+                <p class="attributes_desc">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                  vel arcu sem. Sed non sodales dui. Interdum et malesuada
+                </p>
+              </li>
+              <li>
+                <div class="attributes_list_icon">
+                 <svg
+                    width="70"
+                    height="70"
+                    viewBox="0 0 70 70"
+                  >
+                    <use xlink:href="./images/icons.svg#icon-astronaut-1"></use>
+                  </svg> 
+                </div>
                 <h4 class="attributes_title">LOREM IPSUM</h4>
                 <p class="attributes_desc">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
@@ -226,6 +247,70 @@
         </div>
       </section>
     </main>
+
+    <section class="our_clients section">
+        <div class="container">
+          <h2 class="title_our_clients">Nasi klienci</h2>
+          <ul>
+            <li>
+              <div class="attributes_list_icon">
+                 <svg
+                    width="70"
+                    height="70"
+                    viewBox="0 0 70 70"
+                  >
+                    <use xlink:href="./images/icons.svg#icon-antenna-1"></use>
+                  </svg> 
+                </div>
+            </li>
+            <li>
+             <div class="attributes_list_icon">
+                 <svg
+                    width="70"
+                    height="70"
+                    viewBox="0 0 70 70"
+                  >
+                    <use xlink:href="./images/icons.svg#icon-antenna-1"></use>
+                  </svg> 
+                </div>
+            </li>
+            
+            <li>
+             <div class="attributes_list_icon">
+                 <svg
+                    width="70"
+                    height="70"
+                    viewBox="0 0 70 70"
+                  >
+                    <use xlink:href="./images/icons.svg#icon-antenna-1"></use>
+                  </svg> 
+                </div>
+            </li>
+            <li>
+             <div class="attributes_list_icon">
+                 <svg
+                    width="70"
+                    height="70"
+                    viewBox="0 0 70 70"
+                  >
+                    <use xlink:href="./images/icons.svg#icon-antenna-1"></use>
+                  </svg> 
+                </div>
+            </li>
+            <li>
+             <div class="attributes_list_icon">
+                 <svg
+                    width="70"
+                    height="70"
+                    viewBox="0 0 70 70"
+                  >
+                    <use xlink:href="./images/icons.svg#icon-antenna-1"></use>
+                  </svg> 
+                </div>
+            </li>
+          </ul>
+        </div>
+      </section>
 
     <footer class="footer">
       <div class="container">

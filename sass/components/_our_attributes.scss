@@ -10,6 +10,15 @@
       // &:not(:last-child) {
       //   margin-right: 30px;
       // }
+      .attributes_list_icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 270px;
+        height: 120px;
+        background-color: $backgroundColorTeam;
+        border-radius: 4px;
+      }
       .attributes_title {
         font-weight: 700;
         font-size: 14px;
