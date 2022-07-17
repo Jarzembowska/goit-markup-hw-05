@@ -1,0 +1,32 @@
+.our_clients {
+  width: 100%;
+  .title_our_clients {
+    width: 200px;
+    height: 42px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16em;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $mainTextColor;
+  }
+  ul {
+    display: flex;
+    gap: 30px;
+    li {
+      list-style: none;
+
+      .attributes_list_icon {
+        dispaly: flex;
+        justify-content: center;
+        align-items: center;
+        width: 170px;
+        height: 92px;
+        border: 1px solid $colorIconClient;
+        border-radius: 4px;
+      }
+    }
+  }
+}

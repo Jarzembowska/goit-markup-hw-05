@@ -176,6 +176,8 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 .attributes ul li .attributes_desc {
   width: 270px;
@@ -215,18 +217,18 @@
   align-items: center;
 }
 .team .our_team h2 {
-  margin-top: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+  padding-bottom: 50px;
 }
 .team .our_team .person {
   display: flex;
+  gap: 30px;
 }
 .team .our_team figure {
-  margin-top: 50px;
   margin: 0;
   width: 270px;
   height: 368px;
@@ -237,17 +239,8 @@
 .team .our_team figure img {
   width: 270px;
 }
-.team .our_team figure:not(:last-child) {
-  margin-right: 30px;
-}
-.team .our_team figure:not(:first-child) {
-  margin-left: 0;
-}
-.team .our_team figure:last-child {
-  margin-right: 0;
-}
 .team .our_team figure figcaption .name {
-  margin-top: 30px;
+  padding-top: 30px;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -255,7 +248,7 @@
   letter-spacing: 0.03em;
 }
 .team .our_team figure figcaption .profession {
-  margin-top: 10px;
+  padding-top: 10px;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -375,11 +368,45 @@
   color: rgba(255, 255, 255, 0.6);
 }
 
+.our_clients {
+  width: 100%;
+}
+.our_clients .title_our_clients {
+  width: 200px;
+  height: 42px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16em;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.our_clients ul {
+  display: flex;
+  gap: 30px;
+}
+.our_clients ul li {
+  list-style: none;
+}
+.our_clients ul li .attributes_list_icon {
+  dispaly: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
+
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: #212121;
 }
 
+h2,
+h4,
 ul,
 p {
   list-style: none;

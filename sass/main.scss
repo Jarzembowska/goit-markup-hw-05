@@ -6,12 +6,14 @@
 @import "components/team";
 @import "components/portfolio";
 @import "components/footer";
+@import "components/our_clients";
 
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: $mainTextColor;
 }
-
+h2,
+h4,
 ul,
 p {
   list-style: none;
