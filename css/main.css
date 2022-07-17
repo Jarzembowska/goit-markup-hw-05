@@ -301,6 +301,9 @@
   margin: 0;
   padding: 0;
 }
+.main_portfolio .portfolio_list_box:hover {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
 .main_portfolio .portfolio_list_box img {
   display: block;
 }
@@ -382,21 +385,29 @@
   padding-bottom: 50px;
   color: #212121;
 }
-.our_clients ul {
+.our_clients .clients_list {
   display: flex;
   gap: 30px;
 }
-.our_clients ul li {
+.our_clients .clients_list li {
   list-style: none;
 }
-.our_clients ul li .attributes_list_icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.our_clients .clients_list .client_list_logo {
+  list-style: none;
+}
+.our_clients .clients_list .client_list_logo .icon {
+  display: inline-block;
   width: 170px;
   height: 92px;
+  align-items: center;
+  justify-content: center;
+  fill: #AFB1B8;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
+}
+.our_clients .clients_list .client_list_logo .icon:hover, .our_clients .clients_list .client_list_logo .icon:focus {
+  border: 1px solid #2196f3;
+  fill: #2196f3;
 }
 
 body {

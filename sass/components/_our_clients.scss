@@ -10,20 +10,28 @@
     padding-bottom: 50px;
     color: $mainTextColor;
   }
-  ul {
+  .clients_list {
     display: flex;
     gap: 30px;
     li {
       list-style: none;
-
-      .attributes_list_icon {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    }
+    .client_list_logo {
+      list-style: none;
+      .icon {
+        display: inline-block;
         width: 170px;
         height: 92px;
+        align-items: center;
+        justify-content: center;
+        fill: $colorIconClient;
         border: 1px solid $colorIconClient;
         border-radius: 4px;
+        &:hover,
+        &:focus {
+          border: 1px solid $accentColor;
+          fill: $accentColor;
+        }
       }
     }
   }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,12 +8,11 @@
     <!-- link do pliku nomralize -->
     <link rel="stylesheet" href="css/normalize-css.css" />
     <!-- link do moich styli sass-->
-    <link rel="stylesheet" href="sass/main.css" />
+    <link rel="stylesheet" href="css/main.min.css" />
   </head>
-
   <body>
     <header>
-      <section class="menu">
+      <div class="menu">
         <div class="container">
           <div class="navi">
             <div class="menu_left">
@@ -40,21 +39,31 @@
                 </ul>
               </nav>
             </div>
+
             <ul class="contact">
               <li class="contact_item">
-                <a class="contact_item_link" href="mailto:info@example.com"
-                  >info@example.com</a
+                <a
+                  class="contact_item_link envelope"
+                  href="mailto:info@example.com"
                 >
+                  <svg width="16" height="12" viewBox="0 0 16 12">
+                    <use xlink:href="./images/icons.svg#icon-envelope"></use>
+                  </svg>
+                  info@example.com
+                </a>
               </li>
               <li class="contact_item">
-                <a class="contact_item_link" href="tel:+48111111111"
-                  >+48 111 111 111</a
-                >
+                <a class="contact_item_link" href="tel:+48111111111">
+                  <svg width="10" height="16" viewBox="0 0 10 16">
+                    <use xlink:href="./images/icons.svg#icon-smartphone"></use>
+                  </svg>
+                  +48 111 111 111
+                </a>
               </li>
             </ul>
           </div>
         </div>
-      </section>
+      </div>
     </header>
 
     <main class="main_portfolio section">
