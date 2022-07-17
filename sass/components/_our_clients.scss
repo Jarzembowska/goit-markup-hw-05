@@ -1,15 +1,13 @@
 .our_clients {
   width: 100%;
-  .title_our_clients {
-    width: 200px;
-    height: 42px;
+  h2 {
     font-family: "Roboto";
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16em;
     text-align: center;
     letter-spacing: 0.03em;
+    padding-bottom: 50px;
     color: $mainTextColor;
   }
   ul {
@@ -19,7 +17,7 @@
       list-style: none;
 
       .attributes_list_icon {
-        dispaly: flex;
+        display: flex;
         justify-content: center;
         align-items: center;
         width: 170px;
