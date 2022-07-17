@@ -13,11 +13,9 @@
   .clients_list {
     display: flex;
     gap: 30px;
-    li {
-      list-style: none;
-    }
+
     .client_list_logo {
-      list-style: none;
+      // list-style: none;
       display: flex;
       width: 170px;
       height: 92px;

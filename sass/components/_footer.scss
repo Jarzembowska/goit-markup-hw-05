@@ -3,6 +3,10 @@
   height: 252px;
   background-color: $backgroundColor;
   color: $contactColorFooter;
+  &_left {
+    display: flex;
+    flex-direction: row;
+  }
 
   .contact_box {
     padding-top: 60px;
@@ -39,6 +43,46 @@
       .link {
         text-decoration: none;
         color: $contactColorFooter;
+      }
+    }
+  }
+  .social_card_footer {
+    // padding-top: 16px;
+    margin-left: 70px;
+    &_title {
+      padding-top: 72px;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: $contactLogoColor;
+    }
+    &_list {
+      display: inline-flex;
+      margin: 0;
+      padding-top: 20px;
+      width: 100%;
+      &_element {
+        display: inline-flex;
+
+        &_icon {
+          display: inline-flex;
+          justify-content: center;
+          align-items: center;
+          fill: $contactLogoColor;
+          width: 44px;
+          height: 44px;
+          background: rgba(255, 255, 255, 0.1);
+          border-radius: 50%;
+          margin-right: 10px;
+          &:hover,
+          &:focus {
+            border-radius: 50%;
+            background: $accentColor;
+            fill: $contactLogoColor;
+          }
+        }
       }
     }
   }

@@ -20,7 +20,7 @@
       // margin-top: 50px;
       margin: 0;
       width: 270px;
-      height: 368px;
+      // height: 368px;
       box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
         0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
       border-radius: 0px 0px 4px 4px;
@@ -42,8 +42,10 @@
       // }
 
       figcaption {
+        padding-top: 30px;
+        padding-bottom: 30px;
         .name {
-          padding-top: 30px;
+          // padding-top: 30px;
           font-weight: 500;
           font-size: 16px;
           line-height: 19px;
@@ -57,6 +59,38 @@
           text-align: center;
           letter-spacing: 0.03em;
           color: $contactColorMain;
+        }
+        .social_card {
+          padding-top: 16px;
+          &_list {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 0 32px;
+            width: 100%;
+            &_element {
+              display: inline;
+              justify-content: center;
+              align-items: center;
+              &_icon {
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                fill: $colorIconClient;
+                width: 44px;
+                height: 44px;
+                // gap: 10px;
+
+                &:hover,
+                &:focus {
+                  border-radius: 50%;
+                  background: $accentColor;
+                  fill: $contactLogoColor;
+                }
+              }
+            }
+          }
         }
       }
     }
