@@ -394,9 +394,7 @@
 }
 .our_clients .clients_list .client_list_logo {
   list-style: none;
-}
-.our_clients .clients_list .client_list_logo .icon {
-  display: inline-block;
+  display: flex;
   width: 170px;
   height: 92px;
   align-items: center;
@@ -405,7 +403,7 @@
   border: 1px solid #AFB1B8;
   border-radius: 4px;
 }
-.our_clients .clients_list .client_list_logo .icon:hover, .our_clients .clients_list .client_list_logo .icon:focus {
+.our_clients .clients_list .client_list_logo:hover, .our_clients .clients_list .client_list_logo:focus {
   border: 1px solid #2196f3;
   fill: #2196f3;
 }

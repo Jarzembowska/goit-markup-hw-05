@@ -18,20 +18,18 @@
     }
     .client_list_logo {
       list-style: none;
-      .icon {
-        display: inline-block;
-        width: 170px;
-        height: 92px;
-        align-items: center;
-        justify-content: center;
-        fill: $colorIconClient;
-        border: 1px solid $colorIconClient;
-        border-radius: 4px;
-        &:hover,
-        &:focus {
-          border: 1px solid $accentColor;
-          fill: $accentColor;
-        }
+      display: flex;
+      width: 170px;
+      height: 92px;
+      align-items: center;
+      justify-content: center;
+      fill: $colorIconClient;
+      border: 1px solid $colorIconClient;
+      border-radius: 4px;
+      &:hover,
+      &:focus {
+        border: 1px solid $accentColor;
+        fill: $accentColor;
       }
     }
   }
