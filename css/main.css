@@ -95,7 +95,7 @@
 .slider {
   width: 100%;
   height: 600px;
-  background: #2f303a url(../../images/slider.jpg) no-repeat center;
+  background: #2f303a url(/images/slider.jpg) no-repeat center;
   position: relative;
   z-index: 3;
 }
