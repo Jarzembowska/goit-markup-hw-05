@@ -9,7 +9,7 @@
 .slider {
   width: 100%;
   height: 600px;
-  background: $backgroundColor url(/images/slider.jpg) no-repeat center;
+  background: $backgroundColor url(../images/slider.jpg) no-repeat center;
   position: relative;
   z-index: 3;
   &:after {
