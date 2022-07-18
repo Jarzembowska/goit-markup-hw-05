@@ -3,6 +3,7 @@
   .main_nav {
     display: flex;
     justify-content: center;
+
     &_portfolio {
       li {
         display: inline;
@@ -18,7 +19,8 @@
           background: $backgroundColorTeam;
           border-radius: 4px;
           border: 0px;
-          padding: 6px 15px;
+          // padding: 6px 15px;
+          padding: 6px 22px;
           cursor: pointer;
           &:hover,
           &:focus {
