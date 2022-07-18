@@ -396,8 +396,8 @@
 }
 .footer .contact_box .footer_contact .item {
   font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  line-height: 1.68;
+  letter-spacing: 0.05em;
 }
 .footer .contact_box .footer_contact .item:not(:last-child) {
   margin-bottom: 9px;
