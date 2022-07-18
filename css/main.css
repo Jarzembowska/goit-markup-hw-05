@@ -74,8 +74,9 @@
   flex-wrap: nowrap;
   flex-direction: row;
   align-items: center;
-  padding-left: 345px;
-  gap: 30px;
+}
+.contact_item:not(:last-child) {
+  margin-right: 30px;
 }
 .contact_item_link {
   display: flex;

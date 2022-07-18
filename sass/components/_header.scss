@@ -72,15 +72,15 @@
   flex-wrap: nowrap;
   flex-direction: row;
   align-items: center;
-  padding-left: 345px;
-  gap: 30px;
+  // padding-left: 345px;
+  // gap: 30px;
 
   &_item {
     // display: inline-block;
     // ta część została ujęta jako gap: 30px
-    // &:not(:last-child) {
-    //   margin-right: 30px;
-    // }
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
     &_link {
       display: flex;
       align-items: center;
