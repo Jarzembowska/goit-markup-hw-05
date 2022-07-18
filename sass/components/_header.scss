@@ -13,7 +13,6 @@
 .navi {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
   vertical-align: middle;
 }
@@ -68,23 +67,15 @@
 
 .contact {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  align-items: center;
-  // padding-left: 345px;
-  // gap: 30px;
+  padding-left: 345px;
 
   &_item {
-    // display: inline-block;
-    // ta część została ujęta jako gap: 30px
     &:not(:last-child) {
       margin-right: 30px;
     }
     &_link {
       display: flex;
       align-items: center;
-      font-family: "Roboto";
       font-weight: 500;
       font-size: 14px;
       line-height: 1.71;
