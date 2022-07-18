@@ -8,7 +8,6 @@
 .menu_left {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   vertical-align: middle;
 }
 
