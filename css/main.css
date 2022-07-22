@@ -350,6 +350,7 @@
   border-right: 1px solid #eeeeee;
   background-color: #fff;
   padding: 20px 24px;
+  overflow: hidden;
   z-index: 3;
 }
 .main_portfolio .portfolio_list_box .box_title {
