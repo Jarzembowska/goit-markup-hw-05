@@ -52,11 +52,17 @@
     &_link {
       text-decoration: none;
       color: $colorLink;
+      transition-property: color;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
   }
   a {
     text-decoration: none;
     color: $colorLink;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     &:hover,
     &:focus {
       color: $accentColor;
@@ -83,6 +89,9 @@
       text-decoration: none;
       color: $contactColorMain;
       fill: $contactColorMain;
+      transition-property: color, fill;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
       &:hover,
       &:focus {

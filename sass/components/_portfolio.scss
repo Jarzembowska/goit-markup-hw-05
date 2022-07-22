@@ -16,11 +16,15 @@
           line-height: 1.6;
           text-align: center;
           letter-spacing: 0.03em;
-          background: $backgroundColorTeam;
+          box-shadow: none;
+          background-color: $backgroundColorTeam;
           border-radius: 4px;
           border: 0px;
           padding: 6px 22px;
           cursor: pointer;
+          transition-property: color, background-color, box-shadow;
+          transition-duration: 250ms;
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           &:hover,
           &:focus {
             background: $accentColor;
@@ -46,8 +50,12 @@
     &_box {
       margin: 0;
       padding: 0;
+      box-shadow: none;
       position: relative;
       overflow: hidden;
+      transition-property: box-shadow;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
       z-index: 1;
       &:hover {
         box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
@@ -85,7 +93,6 @@
         position: absolute;
         top: 0;
         left: 0;
-        // bottom: 110;
         width: 100%;
         height: 76%;
         background-color: $backgroundColorOverlay;

@@ -24,6 +24,9 @@
       fill: $colorIconClient;
       border: 1px solid $colorIconClient;
       border-radius: 4px;
+      transition-property: border, fill;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
       &:hover,
       &:focus {
         border: 1px solid $accentColor;

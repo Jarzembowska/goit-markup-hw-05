@@ -57,10 +57,16 @@
 .nav_item_link {
   text-decoration: none;
   color: #000000;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav a {
   text-decoration: none;
   color: #000000;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav a:hover, .nav a:focus {
   color: #2196f3;
@@ -83,6 +89,9 @@
   text-decoration: none;
   color: #757575;
   fill: #757575;
+  transition-property: color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact_item_link:hover, .contact_item_link:focus {
   color: #2196f3;
@@ -235,7 +244,7 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   display: inline-block;
-  background: #fff;
+  background-color: #fff;
 }
 .team .our_team figure img {
   width: 270px;
@@ -279,10 +288,15 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  border-radius: 50%;
+  background-color: #fff;
   fill: #afb1b8;
   width: 44px;
   height: 44px;
   margin-right: 10px;
+  transition-property: border-radius, background-color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team .our_team figure figcaption .social_card_list_element_icon:hover, .team .our_team figure figcaption .social_card_list_element_icon:focus {
   border-radius: 50%;
@@ -309,11 +323,15 @@
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
-  background: #f5f4fa;
+  box-shadow: none;
+  background-color: #f5f4fa;
   border-radius: 4px;
   border: 0px;
   padding: 6px 22px;
   cursor: pointer;
+  transition-property: color, background-color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .main_portfolio .main_nav_portfolio li .button_portfolio:hover, .main_portfolio .main_nav_portfolio li .button_portfolio:focus {
   background: #2196f3;
@@ -334,8 +352,12 @@
 .main_portfolio .portfolio_list_box {
   margin: 0;
   padding: 0;
+  box-shadow: none;
   position: relative;
   overflow: hidden;
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   z-index: 1;
 }
 .main_portfolio .portfolio_list_box:hover {
@@ -468,9 +490,12 @@
   fill: #fff;
   width: 44px;
   height: 44px;
-  background: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   margin-right: 10px;
+  transition-property: background-color, fill, border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer .social_card_footer_list_element_icon:hover, .footer .social_card_footer_list_element_icon:focus {
   border-radius: 50%;
@@ -504,6 +529,9 @@
   fill: #afb1b8;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  transition-property: border, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .our_clients .clients_list .client_list_logo:hover, .our_clients .clients_list .client_list_logo:focus {
   border: 1px solid #2196f3;
