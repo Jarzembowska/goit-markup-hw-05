@@ -1,0 +1,36 @@
+
+.backdrop {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: $backgroundColorBackdrop;
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 528px;
+    min-height: 518px;
+    background-color: $contactLogoColor;
+
+    .close-btn {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      width: 30px;
+      height: 30px;
+      background-color: $contactLogoColor;
+      border: 1px solid $backgroundColorBackdrop;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+  }
+}
+
+.is_hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}

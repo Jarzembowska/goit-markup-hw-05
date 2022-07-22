@@ -6,6 +6,10 @@
 //   background-repeat: no-repeat;
 //   background-position: center;
 // }
+// można to jeszcze rozwiązać poprzez
+// .slider{
+//  bacground: linear-gradient(rgba(47,48,58,0.4), rgba(47,48,58,0.4)), url(../images/slider.jpg) no-repeat center;
+// na elementach title, button_modal ustawiamy dodatkowo wtedy z-index: 10;
 .slider {
   width: 100%;
   height: 600px;
@@ -14,7 +18,7 @@
   z-index: 3;
   &:after {
     content: "";
-    background: rgba(47, 48, 58, 0.4);
+    background: $backgroundSlider;
     display: block;
     width: 100%;
     height: 100%;
