@@ -350,7 +350,7 @@
   border-right: 1px solid #eeeeee;
   background-color: #fff;
   padding: 20px 24px;
-  overflow: hidden;
+  position: relative;
   z-index: 3;
 }
 .main_portfolio .portfolio_list_box .box_title {
@@ -373,18 +373,19 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 73%;
-  background-color: #3f51b5;
+  height: 76%;
+  background-color: rgba(33, 150, 243, 0.9);
   transform: translatey(100%);
   transition: transform 250ms ease;
   z-index: 2;
 }
 .main_portfolio .portfolio_list_box .overlay > p {
-  color: #fff;
-  padding: 10px;
+  padding: 49px 45px 49px 24px;
   margin: 0;
   font-size: 18px;
-  text-align: center;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  color: #ffffff;
   z-index: 2;
 }
 .main_portfolio .portfolio_list_box:hover .overlay {
