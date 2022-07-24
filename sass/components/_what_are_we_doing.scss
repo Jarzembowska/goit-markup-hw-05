@@ -1,6 +1,6 @@
 .what_are_we_doing {
   width: 100%;
-  .title_what_are_we_doing {
+  &_title {
     font-weight: 700px;
     font-size: 35px;
     line-height: 1.17;
@@ -8,16 +8,47 @@
     text-align: center;
     letter-spacing: 0.03em;
   }
-  ul {
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  &_list {
     display: flex;
     gap: 30px;
     margin-top: 50px;
-  }
-  li {
-    list-style: none;
-    // display: inline;
-    // &:not(:last-child) {
-    //   margin-right: 30px;
-    // }
+    &_box {
+      // list-style: none; - jest zerowany globalnie na ul
+      position: relative;
+      background-color: $colorWhatAreWeDoingLabel;
+      &_label {
+        position: absolute;
+        bottom: 0;
+        margin: 0;
+        width: 100%;
+        height: 70px;
+        background-color: $backgroundWhatAreWeDoingLabel;
+        // ta część jest zastąpiona gap: 30px; na ul &_list
+        // display: inline;
+        // &:not(:last-child) {
+        //   margin-right: 30px;
+      }
+      p {
+        font-family: "Roboto";
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        color: $colorWhatAreWeDoingLabel;
+        // margin i padding są zerowane globalnie dla wszystkich p
+      }
+    }
   }
 }

@@ -54,13 +54,6 @@
 .nav_item:not(:last-child) {
   margin-right: 46px;
 }
-.nav_item_link {
-  text-decoration: none;
-  color: #000000;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 .nav a {
   text-decoration: none;
   color: #000000;
@@ -214,7 +207,7 @@
 .what_are_we_doing {
   width: 100%;
 }
-.what_are_we_doing .title_what_are_we_doing {
+.what_are_we_doing_title {
   font-weight: 700px;
   font-size: 35px;
   line-height: 1.17;
@@ -222,13 +215,41 @@
   text-align: center;
   letter-spacing: 0.03em;
 }
-.what_are_we_doing ul {
+.what_are_we_doing img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.what_are_we_doing_list {
   display: flex;
   gap: 30px;
   margin-top: 50px;
 }
-.what_are_we_doing li {
-  list-style: none;
+.what_are_we_doing_list_box {
+  position: relative;
+  background-color: #fff;
+}
+.what_are_we_doing_list_box_label {
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+.what_are_we_doing_list_box p {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #fff;
 }
 
 .team {
